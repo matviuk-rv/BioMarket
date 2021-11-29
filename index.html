@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BioMarket</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   <!-- header -->
+   <header class="header">
+      <a href="index.html" class="header__logo">
+         <img src="img/logo.png" alt="BIO Market logo">
+         <span>BiOMarket</span></a>
+
+      <nav class="header__navbar">
+         <a href="#home">Головна</a>
+         <a href="#shop">Магазин</a>
+         <a href="#about">Про нас</a>
+         <a href="#faqs">Запитання</a>
+         <a href="#blog">Блог</a>
+         <a href="#contact">Контакти</a>
+      </nav>
+
+      <div class="header__icons">
+         <div class="fas fa-bars" id="menu-btn"></div>
+
+         <div class="fas fa-search" id="search-btn"></div>
+         <div class="fas fa-shopping-cart" id="shopping-btn"></div>
+         <div class="fas fa-mobile-alt" id="phone-btn"></div>
+         <div class="fas fa-sign-in-alt" id="login-btn"></div>
+      </div>
+
+      <!-- #search -->
+      <form action="#" class="search-form">
+         <input type="search" id="search-box" placeholder="Пошук...">
+         <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <!-- phone -->
+      <div class="phone">
+         <span><i class="fas fa-phone-alt"></i> <a tel="+38 044 422 42 42">+38 (444) 422-42-42 </a> <i
+               class="fas fa-sms"></i></span>
+      </div>
+
+      <!-- shopping -->
+      <div class="shopping">
+         <div class="shopping__item">
+            <i class="fas fa-trash-alt"></i>
+            <img class="shopping__img" src="img/cart_1.jpg" alt="">
+            <div class="shopping__text">
+               <h3 class="shopping__title">ГРАНАТ</h3>
+               <span class="shopping__price">25.99грн/кг</span>
+               <span class="shopping__amount">Вага: 980г</spanс>
+            </div>
+         </div>
+
+         <div class="shopping__item">
+            <i class="fas fa-trash-alt"></i>
+            <img class="shopping__img" src="img/cart_2.jpg" alt="">
+            <div class="shopping__text">
+               <h3 class="shopping__title">ЛАЙМ</h3>
+               <span class="shopping__price">23.99грн/кг</span>
+               <span class="shopping__amount">Вага: 1300г</spanс>
+            </div>
+         </div>
+
+         <div class="shopping__item">
+            <i class="fas fa-trash-alt"></i>
+            <img class="shopping__img" src="img/cart_3.jpg" alt="">
+            <div class="shopping__text">
+               <h3 class="shopping__title">ГРЕЙПФРУТ</h3>
+               <span class="shopping__price">19.99грн/кг</span>
+               <span class="shopping__amount">Вага: 860г</spanс>
+            </div>
+         </div>
+         <div class="shopping__total">Разом: 81.65грн</div>
+         <a href="#" class="btn">Вийти</a>
+      </div>
+
+      <!-- login-form -->
+      <form action="#" class="login">
+         <h3>Увійти</h3>
+         <input type="email" placeholder="Пошта" class="login__item">
+         <input type="password" placeholder="Пароль" class="login__item">
+         <div class="login__sign">
+            <a>Нагадати пароль</a>
+            <a>Зареєструватись</a>
+         </div>
+         <input type="submit" value="Увійти" class="btn">
+      </form>
+   </header>
+
+   <main>
+      <!-- promo -->
+      <section class="promo">
+         <div class="promo__text">
+            <img src="img/logo.png" alt="Bio Market logo">
+            <h3><span>BiOMarket</span><br> магазин №1 органічних продуктів в Україні</h3>
+            <br>
+            <p>Щоб краще харчуватися: кожен день вживай органічні продукти! Здорова і відповідальна дієта</p>
+            <Br><Br>
+            <a href="#" class="btn">В магазин</a>
+         </div>
+      </section>
+
+      <!-- feature -->
+      <section class="feature">
+         <h3 class="feature__title">З кожним роком все більше і більше наших клієнтів переходять на органічні продукти.
+         </h3>
+         <p class="feature__text">І це має підставу – органічна дієта так само важлива як для твого здоров’я, як для
+            нашої
+            планети!</p>
+         <div class="feature__wrapper">
+            <div class="feature__item">
+               <img src="img/item1.webp" alt="Натуральність">
+               <h3>Натуральність</h3>
+               <p>Без пестицидів, синтетичних хімічних продуктів або генетично модифікованих організмів (ГМО) органічні
+                  продукти
+                  зберігають всі свої поживні речовини і вітаміни і покращують ваше здоров’я протягом всього року!</p>
+            </div>
+
+            <div class="feature__item">
+               <img src="img/item2.webp" alt="Відповідальність і етика">
+               <h3>Відповідальність і етика</h3>
+               <p>Високоякісні продукти, які поважають навколишнє середовище, біорізноманіття та добробут тварин.</p>
+            </div>
+
+            <div class="feature__item">
+               <img src="img/item3.webp" alt="Стабільність">
+               <h3>Стабільність</h3>
+               <p>З екологічної та економічної точки зору – місцеве сільське господарство допомагає створювати нові
+                  робочі
+                  місця щороку.</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- products -->
+      <section class="swiper products" id="shop">
+         <div class="products__title">
+            Купити <span>BIO</span> продукцію<Br>
+            ~ Категорії ~
+         </div>
+         <div class="swiper-wrapper products__slider">
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/1.webp" alt="">
+               <p><span>Біо Продукти - це</span></p>
+               <h3>Крупи та цукор</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/2.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Сири</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/3.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Печиво та солодощі</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/4.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Молочні продукти</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/5.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>напої</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/6.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>м'ясні та ковбасні вироби</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/7.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Сиропи та джеми</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/8.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>борошно та толокно</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/9.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>чай та кава</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/10.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Мед</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/11.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Олія</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/12.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Каші та пластівці</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/13.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>пасти та соуси</h3>
+               <div class="btn">в магазин</div>
+            </div>
+
+            <div class="swiper-slide products__item">
+               <img src="img/slider/14.webp" alt="">
+               <p><span>Біо</span> Продукти - це</p>
+               <h3>Макаронні вироби</h3>
+               <div class="btn">в магазин</div>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </section>
+
+      <!-- feature2 -->
+      <section class="feature feature-bg">
+         <h3 class="feature__title">Сертифікація, якій ви можете довіряти!</h3>
+         <div class="feature__wrapper">
+            <div class="feature__item border">
+               <img src="img/item4.webp" alt="Європейська сертифікація">
+               <h3>Європейська сертифікація</h3>
+               <p>В якості гарантії прозорості та якості вона забезпечує дотримання правил, що застосовуються на всіх
+                  континентах.
+                  Виробники, переробні компанії і дистриб’ютори перевіряються щороку.</p>
+            </div>
+
+            <div class="feature__item border">
+               <img src="img/item5.webp" alt="Ідентифікаційний номер виробника">
+               <h3>Ідентифікаційний номер виробника</h3>
+               <p>Для забезпечення повного дотримання точних специфікацій.</p>
+            </div>
+
+            <div class="feature__item border">
+               <img src="img/item6.webp" alt="Походження сировини">
+               <h3>Походження сировини</h3>
+               <p>95% інгредієнтів виробляється органічно.</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- blog -->
+      <section class="blogs" id="blog">
+         <div class="blogs__text">Наш Блог</div>
+         <div class="blogs__wrapper">
+
+            <div class="blogs__item">
+               <img src="img/blog1.jpg" alt="blog1">
+               <div class="blogs__body">
+                  <div class="blogs__icon">
+                     <a href="#"><i class="fas fa-user"></i>&nbsp; BioMarket</a>
+                     <a href="#">29.11.2021&nbsp; <i class="far fa-calendar-alt"></i></a>
+                  </div>
+                  <h3>Українська якість на світовому ринку!</h3>
+                  <p>Компанія Eco Berry прийняла участь у всесвітньо відомій виставці Anuga. Anuga – це виставка готових
+                     харчових продуктів,
+                     яка є..</p>
+               </div>
+               <div class="btn">Читати далі</div>
+            </div>
+
+            <div class="blogs__item">
+               <img src="img/blog2.jpg" alt="blog1">
+               <div class="blogs__body">
+                  <div class="blogs__icon">
+                     <a href="#"><i class="fas fa-user"></i>&nbsp; BioMarket</a>
+                     <a href="#">16.10.2021&nbsp; <i class="far fa-calendar-alt"></i></a>
+                  </div>
+                  <h3>Органічне молоко.</h3>
+                  <p> HiPP використовує тільки молоко тих фермерських господарств, які працюють точно за принципами
+                     органічного сільського
+                     господарства. Корови утримуються відповідно до особливостей породи та пасуться понад 200 днів на
+                     рік на відкритих
+                     пасовищах, не оброблених мінеральними добривами ..</p>
+               </div>
+               <div class="btn">Читати далі</div>
+            </div>
+
+            <div class="blogs__item">
+               <img src="img/blog3.jpg" alt="blog1">
+               <div class="blogs__body">
+                  <div class="blogs__icon">
+                     <a href="#"><i class="fas fa-user"></i>&nbsp; BioMarket</a>
+                     <a href="#">09.09.2021&nbsp; <i class="far fa-calendar-alt"></i></a>
+                  </div>
+                  <h3>Всеукраїнський ярмарок органічних продуктів 2021</h3>
+                  <p>Атмосфера, як завжди, на висоті. Кожен учасник зміг поділитися досвідом органічного виробництва,
+                     ділилися новинками та
+                     досягненнями, а кожен відвідувач зміг посмакувати та придбати все, що йому до вподоби..
+                  </p>
+               </div>
+               <div class="btn">Читати далі</div>
+            </div>
+
+            <div class="blogs__item">
+               <img src="img/blog4.jpg" alt="blog1">
+               <div class="blogs__body">
+                  <div class="blogs__icon">
+                     <a href="#"><i class="fas fa-user"></i>&nbsp; BioMarket</a>
+                     <a href="#">11.02.2021&nbsp; <i class="far fa-calendar-alt"></i></a>
+                  </div>
+                  <h3>Контроль безпечності харчових продуктів</h3>
+                  <p>Імпорт харчових продуктів нетваринного походження в ЄС підлягає загальним умовам і спеціальним
+                     положенням, спрямованих на..</p>
+               </div>
+               <div class="btn">Читати далі</div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!-- footer -->
+   <footer class="footer">
+      <div class="footer__wrapper">
+
+         <div class="footer__column left">
+            <a href="index.html" class="footer__logo">
+               <img src="img/logo.png" alt="BIO Market logo">
+               <span>BiOMarket</span></a>
+
+            <p>Ми в соц. мережах</p>
+            <div class="social">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-instagram-square"></i></a>
+               <a href="#"><i class="fab fa-vk"></i></a>
+               <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+
+         <div class="footer__column center">
+            <p>Наші контакти:</p>
+            <p>04053, м. Київ,</p>
+            <p>вулиця Бульварно-Кудрявська, 17a</p>
+            <p>Наш телефон:</p>
+            <p><a tel="+38 044 422 42 42">+38 (444) 422-42-42 </a></p>
+         </div>
+
+         <div class="footer__column right">
+            <p>Ми на карті:</p>
+            <div><iframe class="map"
+               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.2711505959815!2d30.52502691564717!3d50.448996367695855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ecfad616671ad39!2z0JzQvtC90YPQvNC10L3RgiDQndC10LfQsNC70LXQttC90L7RgdGC0ZY!5e0!3m2!1suk!2spl!4v1638216119739!5m2!1suk!2spl"
+               width="200" height="150" allowfullscreen="" loading="lazy"></iframe></div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
