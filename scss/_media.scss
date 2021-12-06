@@ -1,0 +1,189 @@
+@media (max-width: 1200px) {
+  .header {
+    padding: 2rem 5%;
+    &__logo {
+      font-size: 1.8rem;
+    }
+    &__navbar {
+      a {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .blogs {
+    &__item {
+      padding: 1.5rem;
+      width: 24%;
+      img {
+        width: 21rem;
+        height: 21rem;
+      }
+    }
+    &__body {
+      width: 20rem;
+      h3 {
+        font-size: 1.7rem;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+/////////////////////////
+@media (max-width: 991px) {
+  html {
+    font-size: 57%;
+  }
+  section {
+    padding: 2rem;
+  }
+  .header {
+    padding: 2rem;
+    &__logo {
+      font-size: 1.5rem;
+      img {
+        width: 5rem;
+      }
+    }
+    &__navbar {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+    &__icons {
+      div {
+        height: 3.5rem;
+        width: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .blogs {
+    &__item {
+      padding: 1.5rem;
+      width: 49%;
+      img {
+        width: 30rem;
+        height: 30rem;
+      }
+    }
+    &__body {
+      width: 30rem;
+      h3 {
+        font-size: 1.7rem;
+        padding: 1rem;
+      }
+    }
+  }
+  .footer{
+    padding:3rem;
+    &__wrapper{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .left{
+      align-items: center;
+      margin-top: 3rem;
+      order:3;
+      .social{
+        justify-content: space-between;
+        i{
+          margin: 0.4rem;
+        }
+      }
+    }
+    .center{
+      order:1;
+    }
+    .right{
+      order:2;
+    }
+  }
+}
+
+/////////////////////////
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    &__logo {
+      font-size: 2rem;
+    }
+    &__navbar {
+      position: absolute;
+      top: 110%;
+      right: -110%;
+      width: 30rem;
+      background: #fff;
+      border-radius: 0.5rem;
+      box-shadow: $box-shadow;
+      a {
+        font-size: 1.7rem;
+        margin: 2rem 2rem;
+        display: block;
+        &:hover {
+          color: $main_color;
+        }
+      }
+    }
+    &__icons {
+      display: flex;
+      #menu-btn {
+        display: block;
+      }
+      div {
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+      }
+    }
+  }
+  .blogs{
+    &__item{
+      width:90%;
+    }
+    &__wrapper{
+      justify-content: center;
+    }
+  }
+  .footer{
+    .center {
+    p,
+    a {
+      padding: 0.6rem;
+    }
+  }
+  }
+}
+
+/////////////////////////
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 1rem;
+    &__logo {
+      font-size: 1.6rem;
+    }
+  }
+  .promo {
+    padding-top: 10rem;
+    img {
+      width: 14rem;
+    }
+  }
+  .footer{
+    .center{
+      p{
+        font-size: 3.8rem;
+      }
+    }
+  }
+  .active {
+    width: 90% !important;
+  }
+}

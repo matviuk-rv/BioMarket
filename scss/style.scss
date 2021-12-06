@@ -1,0 +1,15 @@
+@import "_nullstyle.scss";
+@import "_fonts.scss";
+@import "_variables.scss";
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  
+}
+body {
+  background-color:rgba(176, 247, 178, 0.3);
+}
+@import "_general.scss";
+@import "_media.scss";
